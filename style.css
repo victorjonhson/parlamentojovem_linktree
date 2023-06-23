@@ -103,3 +103,10 @@ body {
   background-color: #1e1e22;
   transition: 0.2s;
 }
+
+@media (max-width: 768px) {
+  body {
+    height: 90vh;
+    overflow-x: hidden;
+  }
+}
